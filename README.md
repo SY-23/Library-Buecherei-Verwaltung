@@ -17,7 +17,7 @@ library/
 └── assets/
 └── style.css
 
-## Screenshot1
+## Library overwiew 1
 
 ![Library overview](screenshots/overview-shelves.png)
 
