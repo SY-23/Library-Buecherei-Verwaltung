@@ -1,0 +1,80 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background: #f7f7f8;
+    color: #1a1a1a;
+}
+
+main {
+    max-width: 640px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 1.75rem;
+}
+
+p {
+    color: #555;
+}
+
+.output {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-family: monospace;
+    white-space: pre-wrap;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.stats {
+    background: #e7f3ff;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+
+.add-results {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.add-status.added {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 0.75rem;
+    border-radius: 6px;
+}
+
+.add-status.duplicate {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 0.75rem;
+    border-radius: 6px;
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
