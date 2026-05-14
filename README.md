@@ -17,6 +17,10 @@ library/
 └── assets/
 └── style.css
 
+## Screenshot1
+
+![Library overview](screenshots/overview-shelves.png)
+
 ## What this project aims to achieve
 
 This project aims to provide a simple library management application that organizes books across multiple shelves and tracks their location and status. 
