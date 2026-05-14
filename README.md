@@ -17,10 +17,6 @@ library/
 └── assets/
 └── style.css
 
-## Library overwiew 1
-
-![Library overview 1](screenshots/overview-shelves.png)
-
 ## What this project aims to achieve
 
 This project aims to provide a simple library management application that organizes books across multiple shelves and tracks their location and status. 
@@ -83,10 +79,6 @@ Methods:
 ->  displayBookCount(): Returns a text representation of the book count.
 
 ->  containsShelf(int $label): Checks whether a shelf with a given label already exists.
-
-## Library overwiew 2
-
-![Library overview 2](screenshots/unser-messages.png)
 
 ### Shelf.php
 
