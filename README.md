@@ -84,6 +84,10 @@ Methods:
 
 ->  containsShelf(int $label): Checks whether a shelf with a given label already exists.
 
+## Library overwiew 2
+
+![Library overview](screenshots/unser-messages.png)
+
 ### Shelf.php
 
 The Shelf class represents a single shelf within the library. It stores a shelf label, a category, and a local collection of books. The class allows books to be added to the shelf and provides search functions for finding books by title, ID, or ISBN. It also supports displaying the shelf contents in a readable format, including the shelf information and all books stored on it.
