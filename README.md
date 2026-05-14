@@ -2,6 +2,20 @@
 
 A Simple Library Management System in PHP.
 
+## Screenshots
+
+### Library overview
+
+![Library overview](screenshots/overview-inventory.png)
+
+### User messages
+
+![User messages](screenshots/user-messages.png)
+
+### Shelf management
+
+![Shelf management](screenshots/overview-shelves.png)
+
 ## Structure
 
 library/
