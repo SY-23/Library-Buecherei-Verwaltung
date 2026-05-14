@@ -19,7 +19,7 @@ library/
 
 ## Library overwiew 1
 
-![Library overview](screenshots/overview-shelves.png)
+![Library overview 1](screenshots/overview-shelves.png)
 
 ## What this project aims to achieve
 
@@ -86,7 +86,7 @@ Methods:
 
 ## Library overwiew 2
 
-![Library overview](screenshots/unser-messages.png)
+![Library overview 2](screenshots/unser-messages.png)
 
 ### Shelf.php
 
